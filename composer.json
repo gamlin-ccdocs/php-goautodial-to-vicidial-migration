@@ -1,0 +1,31 @@
+{
+    "name": "vicistack/goautodial-to-vicidial-migration",
+    "description": "Migrating from GoAutoDial to VICIdial: Step-by-Step",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "goautodial",
+        "vicidial",
+        "migration"
+    ],
+    "homepage": "https://vicistack.com/blog/goautodial-to-vicidial-migration/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\GoautodialToVicidialMigration\\": "src/"
+        }
+    }
+}
